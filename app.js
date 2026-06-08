@@ -1,4 +1,4 @@
-const API_URL='https://script.google.com/macros/s/AKfycbxntpMDOzRNtgseZ3yOIB3mg_125oEWqvudac7_GBD1u9XJ3h2RQmi4zaHbucUQixdwSw/exec';
+const API_URL='https://script.google.com/macros/s/AKfycbxNwfddMRG37fjMhH6Oent2JYYoqweZwkSpfzuzPY5BGPsmw2grUukOUFFoxvA5qYqzww/exec';
 let questions=[];let employee='';let violations=0;let duration=25*60;let timer;
 document.addEventListener('visibilitychange',()=>{if(document.hidden){violations++;if(violations>=3){alert('Quiz terminated');location.reload();}}});
 async function startQuiz(){
